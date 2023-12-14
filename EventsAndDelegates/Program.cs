@@ -45,3 +45,10 @@ Console.WriteLine("cac".IsPalindrome());
 Console.WriteLine("()()(())".AreBracketBalanced());
 Console.WriteLine("()()(()".AreBracketBalanced());
 Console.WriteLine("()()(())(({{}}))".AreBracketBalanced());
+
+var myKeys = new Pobject();
+foreach (int item in myKeys)
+{
+    Console.WriteLine(item);
+}
+Console.WriteLine(myKeys.Sum(x => x));
